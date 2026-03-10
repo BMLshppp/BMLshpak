@@ -78,11 +78,12 @@ export default function Home() {
           <p style={{ marginTop: '16px', lineHeight: '1.6', color: '#ccc' }}>
             
             Вечный доступ в BML<br />
-            Неограниченный доступ к личке Outforce<br />
+            Неограниченный доступ к личке Shpak<br />
+            Неограниченая поддержка<br />
             
           </p>
           <a
-            href="https://t.me/Outforce1?text=КОНСУЛЬТАЦИЯ%20BML"
+            href="https://t.me/Outforce1?text=BML"
             target="_blank"
             style={{
               display: 'inline-block',
@@ -120,14 +121,15 @@ export default function Home() {
           <h2 style={{ fontSize: '24px', color: '#fff' }}>КОНСУЛЬТАЦИЯ + BML</h2>
           <h3 style={{ fontSize: '20px', color: '#fff', margin: '10px 0' }}>550$</h3>
           <p style={{ marginTop: '16px', lineHeight: '1.6', color: '#ccc' }}>
-            Часовой звонок с Outforce<br />
+            Часовой звонок с Shpak<br />
             Вечный доступ в BML<br />
-            Неограниченный доступ к личке Outforce<br />
+            Неограниченный доступ к личке Shpak<br />
             Пошаговый план действий именно для тебя<br />
+            Неограниченая поддержка<br />
             
             </p>
           <a
-            href="https://t.me/Outforce1?text=PREMIUM%20BML"
+            href="https://t.me/Outforce1?text=КОНСУЛЬТАЦИЯ + BML"
             target="_blank"
             style={{
               display: 'inline-block',
