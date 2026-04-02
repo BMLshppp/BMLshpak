@@ -42,15 +42,15 @@ export default function Home() {
           fontWeight: 'bold',
           transition: 'all 0.3s',
         }}
-        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#1900ff')}
+        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#220042')}
         onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'white')}
       >
         Перейти к тарифам
       </button>
       <img src="/banner.png.jpg" alt="banner"style={{ marginTop: "40px", width: "400px" }} />
-      <h2 style={{ color: "white", fontSize: "20px" }}>
-  Научись создавать и продавать свои продукты 
-</h2>
+      <h1 style={{ color: "white", fontSize: "20px" }}>
+   BML: наход ниши - как её изучить - выход на доход - масштаб к миллионам
+</h1>
 
       {/* Секция тарифов */}
       <div
@@ -72,7 +72,7 @@ export default function Home() {
             padding: '32px',
             maxWidth: '400px',
             textAlign: 'center',
-            boxShadow: '0 0 20px rgba(0, 4, 255, 0.3)',
+            boxShadow: '0 0 20px rgb(29, 0, 66)',
           }}
         >
           <h2 style={{ fontSize: '24px', color: '#fff' }}>BML</h2>
@@ -100,7 +100,7 @@ export default function Home() {
               transition: 'background 0.3s',
             }}
             onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = '#1900ff')
+              (e.currentTarget.style.backgroundColor = '#220042ff')
             }
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'red')}
           >
@@ -112,12 +112,12 @@ export default function Home() {
         <div
           style={{
             backgroundColor: '#111',
-            border: '1px solid #ff0000',
+            border: '1px solid #220042',
             borderRadius: '12px',
             padding: '32px',
             maxWidth: '400px',
             textAlign: 'center',
-            boxShadow: '0 0 20px rgba(255, 0, 0, 0.3)',
+            boxShadow: '0 0 20px rgb(21, 1, 54)',
           }}
         >
           <h2 style={{ fontSize: '24px', color: '#fff' }}>КОНСУЛЬТАЦИЯ + BML</h2>
@@ -137,7 +137,7 @@ export default function Home() {
               display: 'inline-block',
               marginTop: '24px',
               padding: '16px 32px',
-              backgroundColor: '#ff0000',
+              backgroundColor: '#220042e',
               color: 'black',
               borderRadius: '8px',
               textDecoration: 'none',
@@ -146,10 +146,10 @@ export default function Home() {
               transition: 'background 0.3s',
             }}
             onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = '#ff0000')
+              (e.currentTarget.style.backgroundColor = '#220042')
             }
             onMouseOut={(e) =>
-              (e.currentTarget.style.backgroundColor = '#ff0000')
+              (e.currentTarget.style.backgroundColor = '#8400ff')
             }
           >
             ВОЙТИ В BML
