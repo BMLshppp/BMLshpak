@@ -11,14 +11,16 @@ export default function Home() {
   return (
     <main
       style={{
-        display: 'flex',
+       display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         minHeight: '100vh',
         backgroundColor: 'black',
         color: 'white',
-        fontFamily: 'Arial, sans-serif',
+        fontFamily: 'Arial, sans-serif', 
+  
+      
       }}
     >
       {/* Заголовок */}
@@ -74,7 +76,7 @@ export default function Home() {
           }}
         >
           <h2 style={{ fontSize: '24px', color: '#fff' }}>BML</h2>
-          <h3 style={{ fontSize: '20px', color: '#fff', margin: '10px 0' }}>350$</h3>
+          <h3 style={{ fontSize: '20px', color: '#fff', margin: '10px 0' }}>250$</h3>
           <p style={{ marginTop: '16px', lineHeight: '1.6', color: '#ccc' }}>
             
             Вечный доступ в BML<br />
