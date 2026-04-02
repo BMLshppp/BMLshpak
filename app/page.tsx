@@ -42,7 +42,7 @@ export default function Home() {
           fontWeight: 'bold',
           transition: 'all 0.3s',
         }}
-        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#220042')}
+        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#0066ff')}
         onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'white')}
       >
         Перейти к тарифам
@@ -72,7 +72,7 @@ export default function Home() {
             padding: '32px',
             maxWidth: '400px',
             textAlign: 'center',
-            boxShadow: '0 0 20px rgb(29, 0, 66)',
+            boxShadow: '0 0 20px rgb(0, 81, 255)',
           }}
         >
           <h2 style={{ fontSize: '24px', color: '#fff' }}>BML</h2>
@@ -100,7 +100,7 @@ export default function Home() {
               transition: 'background 0.3s',
             }}
             onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = '#220042ff')
+              (e.currentTarget.style.backgroundColor = '#0066ff')
             }
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'red')}
           >
@@ -112,12 +112,12 @@ export default function Home() {
         <div
           style={{
             backgroundColor: '#111',
-            border: '1px solid #220042',
+            border: '1px solid #0066ff',
             borderRadius: '12px',
             padding: '32px',
             maxWidth: '400px',
             textAlign: 'center',
-            boxShadow: '0 0 20px rgb(21, 1, 54)',
+            boxShadow: '0 0 20px rgb(0, 89, 255)',
           }}
         >
           <h2 style={{ fontSize: '24px', color: '#fff' }}>КОНСУЛЬТАЦИЯ + BML</h2>
@@ -137,7 +137,7 @@ export default function Home() {
               display: 'inline-block',
               marginTop: '24px',
               padding: '16px 32px',
-              backgroundColor: '#220042e',
+              backgroundColor: '#8400ff',
               color: 'black',
               borderRadius: '8px',
               textDecoration: 'none',
@@ -146,10 +146,10 @@ export default function Home() {
               transition: 'background 0.3s',
             }}
             onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = '#220042')
+              (e.currentTarget.style.backgroundColor = '#0066ff')
             }
             onMouseOut={(e) =>
-              (e.currentTarget.style.backgroundColor = '#8400ff')
+              (e.currentTarget.style.backgroundColor = '#0066ff')
             }
           >
             ВОЙТИ В BML
